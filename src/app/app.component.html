@@ -1,0 +1,20 @@
+<div class="left">
+  <div style="text-align: center">
+    <img class="avator" src="assets/avator.jpeg" alt="" />
+  </div>
+  <ul>
+    <li>本日计划</li>
+    <li>历史计划</li>
+    <li>统计</li>
+    <li>分享</li>
+  </ul>
+</div>
+
+<div class="right-top"></div>
+
+<div class="right-bottom">
+  <app-search-bar></app-search-bar>
+  <ul class="plan-list">
+    <app-plan *ngFor="let item of datasource.searchResult" [(plan)]="item"></app-plan>
+  </ul>
+</div>

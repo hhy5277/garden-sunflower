@@ -1,0 +1,21 @@
+li {
+  line-height: 32px;
+  list-style: none;
+  width: 90%;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: coral;
+}
+
+.content {
+  display: inline-block;
+  width: calc(100%-150px);
+}
+
+.date {
+  float: right;
+  width: 100px;
+}
