@@ -6,10 +6,9 @@
 }
 
 .left {
-  // background-color: #f1f1f1;
   width: calc(20% - 1px);
   height: 100%;
-  border-right: 1px solid #f1f1f1;
+  border-right: 1px solid #c4c4c4;
 }
 
 .left ul {
@@ -22,10 +21,8 @@
 }
 
 .left ul li:hover {
-  background-color: #f1f1f1;
-  border-top: 1px solid： #f1f1f1;
-  border-bottom: 1px solid： #f1f1f1;
-  box-shadow: 0px 0px 2px rgb(231, 220, 220);
+  background-color: coral;
+  border-color: coral;
   cursor: pointer;
 }
 
@@ -36,8 +33,13 @@
   border-radius: 50px;
 }
 
+.avator:hover {
+  cursor: pointer;
+}
+
 .right-top {
-  background-color: rgb(88, 20, 151);
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #c4c4c4;
   width: 80%;
   height: 64px;
 }

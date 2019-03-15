@@ -1,3 +1,7 @@
+.checkbox {
+  border-radius: 15px;
+}
+
 li {
   line-height: 32px;
   list-style: none;
@@ -8,6 +12,7 @@ li {
 li:hover {
   cursor: pointer;
   background-color: coral;
+  border-color: coral;
 }
 
 .content {
