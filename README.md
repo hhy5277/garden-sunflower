@@ -14,8 +14,8 @@ ng s -o
 项目目的主要在于分享学习，也希望能帮助到一些正在学习 ng 8 的童鞋。
 
 ### 背景
-本项目是通过 ng cli 创建的一个 AngularJs 8.0 的 SPA 项目。
-由于 AngularJs 8.0 自身属于 TypeScript 书写方式，因此本项目所使用的语言是 TS。
+本项目是通过 ng cli 创建的一个 Angular 8.0 的 SPA 项目。
+由于 Angular 8.0 自身属于 TypeScript 书写方式，因此本项目所使用的语言是 TS。
 
 ### 主题
 本项目的主题围绕日常待办事项来制作。
